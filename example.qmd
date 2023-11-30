@@ -1,0 +1,22 @@
+---
+title: "Homework Example"
+filters:
+  - homework
+format: html
+number-sections: true
+---
+
+## Heading
+A section of text
+
+### Subsection
+Another section of text
+
+## Homework {.unnumbered}
+##### A basic problem {.homework}
+Define *mobility*. 
+
+##### A less basic problem {.homework}
+A highway has a jam density of 120 vehicles per mile and a free flow speed of 75
+miles per hour. What is the capacity of the highway assuming the Greenshields' 
+traffic flow model?
