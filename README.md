@@ -1,10 +1,11 @@
 # Homework Extension For Quarto
 
-This extension allows for section headings to be assigned a `.homework` tag.
-This will change the printing of the header to include a `HW #:`  introductory tag.
-It will also number the problems homeworks with an internal count separate from
-the counting of the sections, and provide an anchor link for including hyperlinks
-in syllabi or other contexts.
+This extension provides some convenience filters for making course textbooks
+as quarto books. Namely:
+  - it creates a separate numbering scheme so that homework questions can be
+  headed but numbered outside of the table of contents and section numbering. 
+  - It creates a callout box that can contain a solution key that is suppressed
+  with a single quarto parameter.
 
 ## Installing
 
@@ -27,7 +28,7 @@ filters:
 Then, use the `.homework` attribute next to a heading at any level to
 identify the heading as a homework problem with a title.
 
-Additionall, the `.homework-key` div will create a callout with a solution.
+Additionally, the `.homework-key` div will create a callout with a solution.
 The `show-solution` boolean flag gives you the option to print the callout 
 or not [h/t to ginolhac](https://github.com/ginolhac/unilur).
 
